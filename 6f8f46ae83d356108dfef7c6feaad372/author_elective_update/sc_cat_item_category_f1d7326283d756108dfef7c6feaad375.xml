@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Training Enrollments">0ab63a6283d756108dfef7c6feaad382</sc_cat_item>
+        <sc_category display_value="Training">10c7762283d756108dfef7c6feaad3a6</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 21:50:54</sys_created_on>
+        <sys_id>f1d7326283d756108dfef7c6feaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training.Training Enrollments</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sc_cat_item_category_f1d7326283d756108dfef7c6feaad375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 21:50:54</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sc_cat_item_category_f1d7326283d756108dfef7c6feaad375</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Training Enrollments">0ab63a6283d756108dfef7c6feaad382</sc_cat_item><sc_category display_value="Training">10c7762283d756108dfef7c6feaad3a6</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 21:50:54</sys_created_on><sys_id>f1d7326283d756108dfef7c6feaad375</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Training.Training Enrollments</sys_name><sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package><sys_policy/><sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope><sys_update_name>sc_cat_item_category_f1d7326283d756108dfef7c6feaad375</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 21:50:54</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1888275234</payload_hash>
+        <record_name>Training.Training Enrollments</record_name>
+        <reverted_from/>
+        <source>e2df86ae83d356108dfef7c6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 21:50:55</sys_created_on>
+        <sys_id>b9d7fea283d756108dfef7c6feaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a9bf03780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 21:50:55</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>bdd7fea25fd75610010223d36cc7f8bd</update_guid>
+        <update_guid_history>bdd7fea25fd75610010223d36cc7f8bd:1888275234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Training.Training Enrollments">59f87a2683d756108dfef7c6feaad380</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 21:55:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>00f0c128d19a4bf2a97a705d2a469e04</sys_id>
+        <sys_metadata>f1d7326283d756108dfef7c6feaad375</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Training.Training Enrollments</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_f1d7326283d756108dfef7c6feaad375</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_f1d7326283d756108dfef7c6feaad375">b9d7fea283d756108dfef7c6feaad3be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 21:55:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
