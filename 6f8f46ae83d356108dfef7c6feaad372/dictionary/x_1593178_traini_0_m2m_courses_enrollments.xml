@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0f916266835756108dfef7c6feaad394" label="M2M Courses Enrollments" max_length="40" name="x_1593178_traini_0_m2m_courses_enrollments" type="collection">
+        <element label="Course" max_length="32" name="course" reference="x_1593178_traini_0_courses" type="reference"/>
+        <element label="Enrollment" max_length="32" name="enrollment" reference="x_1593178_traini_0_enrollments" type="reference"/>
+        <index name="index">
+            <element name="course"/>
+        </index>
+        <index name="index2">
+            <element name="enrollment"/>
+        </index>
+    </element>
+</database>
