@@ -3,92 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>date</element>
-            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7821fa6a839756108dfef7c6feaad318</list_id>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
-            <sys_id>b421fa6a839756108dfef7c6feaad319</sys_id>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>98e0133e839712108dfef7c6feaad3f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>course</element>
-            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7821fa6a839756108dfef7c6feaad318</list_id>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
-            <sys_id>b821fa6a839756108dfef7c6feaad319</sys_id>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>90e0133e839712108dfef7c6feaad3f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>instructor</element>
-            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7821fa6a839756108dfef7c6feaad318</list_id>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
-            <sys_id>bc21fa6a839756108dfef7c6feaad319</sys_id>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>94e0133e839712108dfef7c6feaad3f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>quantity_available</element>
-            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7821fa6a839756108dfef7c6feaad318</list_id>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
-            <sys_id>b021fa6a839756108dfef7c6feaad31a</sys_id>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>98e0133e839712108dfef7c6feaad3f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_on</element>
-            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7821fa6a839756108dfef7c6feaad318</list_id>
+            <element>total_quantity</element>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
-            <sys_id>b421fa6a839756108dfef7c6feaad31a</sys_id>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>9ce0133e839712108dfef7c6feaad3f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_updated_by</element>
-            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">7821fa6a839756108dfef7c6feaad318</list_id>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
-            <sys_id>b821fa6a839756108dfef7c6feaad31a</sys_id>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>90e0133e839712108dfef7c6feaad3f2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1593178_traini_0_schedules" element="NULL" name="x_1593178_traini_0_schedules" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">18e0133e839712108dfef7c6feaad3ef</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
+            <sys_id>94e0133e839712108dfef7c6feaad3f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -102,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 21:21:38</sys_created_on>
+            <sys_created_on>2025-01-28 18:18:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7821fa6a839756108dfef7c6feaad318</sys_id>
+            <sys_id>18e0133e839712108dfef7c6feaad3ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1593178_traini_0_schedules</sys_name>
             <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
@@ -113,7 +128,7 @@
             <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
             <sys_update_name>sys_ui_list_x_1593178_traini_0_schedules_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-27 21:21:38</sys_updated_on>
+            <sys_updated_on>2025-01-28 18:18:48</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>x_1593178_traini_0.admin</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1593178_traini_0_m2m_courses_enrollments</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:13:51</sys_created_on>
+        <sys_id>c8a1a266835756108dfef7c6feaad345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1593178_traini_0_m2m_courses_enrollments</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_security_acl_c8a1a266835756108dfef7c6feaad345</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 20:50:40</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_security_acl_c8a1a266835756108dfef7c6feaad345</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>x_1593178_traini_0.admin</description><local_or_existing>Local</local_or_existing><name>x_1593178_traini_0_m2m_courses_enrollments</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 20:13:51</sys_created_on><sys_id>c8a1a266835756108dfef7c6feaad345</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1593178_traini_0_m2m_courses_enrollments</sys_name><sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package><sys_policy/><sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope><sys_update_name>sys_security_acl_c8a1a266835756108dfef7c6feaad345</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 20:50:40</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-925556200</payload_hash>
+        <record_name>x_1593178_traini_0_m2m_courses_enrollments</record_name>
+        <reverted_from/>
+        <source>e2df86ae83d356108dfef7c6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:50:40</sys_created_on>
+        <sys_id>170a2262839756108dfef7c6feaad321</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a987dbc00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 20:50:40</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>db0a2262c5975610418d49d9e55d2120</update_guid>
+        <update_guid_history>db0a2262c5975610418d49d9e55d2120:-925556200,4ca1a2664f5756108ca05fb92f25d847:-1976813291</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 22:25:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>15ed92daa1434cc788f0223679c45959</sys_id>
+        <sys_metadata>c8a1a266835756108dfef7c6feaad345</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593178_traini_0_m2m_courses_enrollments</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="">47916266835756108dfef7c6feaad396</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c8a1a266835756108dfef7c6feaad345</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c8a1a266835756108dfef7c6feaad345">170a2262839756108dfef7c6feaad321</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 22:25:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

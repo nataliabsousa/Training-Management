@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="course" table="x_1593178_traini_0_m2m_courses_enrollments">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Course</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>true</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>course</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1593178_traini_0_m2m_courses_enrollments</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1593178_traini_0_courses">x_1593178_traini_0_courses</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 20:14:40</sys_created_on>
+        <sys_id>00d1a666835756108dfef7c6feaad3bb</sys_id>
+        <sys_name>Course</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_dictionary_x_1593178_traini_0_m2m_courses_enrollments_course</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 22:10:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_dictionary_x_1593178_traini_0_m2m_courses_enrollments_course</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="course" table="x_1593178_traini_0_m2m_courses_enrollments"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Course</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>course</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1593178_traini_0_m2m_courses_enrollments</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_1593178_traini_0_courses">x_1593178_traini_0_courses</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-27 20:14:40</sys_created_on><sys_id>00d1a666835756108dfef7c6feaad3bb</sys_id><sys_name>Course</sys_name><sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package><sys_policy/><sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope><sys_update_name>sys_dictionary_x_1593178_traini_0_m2m_courses_enrollments_course</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-27 22:10:46</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1191682420</payload_hash>
+        <record_name>M2M Courses Enrollments.Course</record_name>
+        <reverted_from/>
+        <source>e2df86ae83d356108dfef7c6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 22:10:46</sys_created_on>
+        <sys_id>fc6cb26a83d756108dfef7c6feaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a9d131470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 22:10:46</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>b46cb26a11d75610235ee7e0c7ef3a97</update_guid>
+        <update_guid_history>b46cb26a11d75610235ee7e0c7ef3a97:1191682420,50d1e6667c5756106d575003f072b615:1479389397,08d1a666d25756107e3c726031be35ec:-1569075836</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-27 22:25:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0d50fe42efc64d209d7546c5459c0400</sys_id>
+        <sys_metadata>00d1a666835756108dfef7c6feaad3bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Course</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="">0f916266835756108dfef7c6feaad394</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1593178_traini_0_m2m_courses_enrollments_course</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1593178_traini_0_m2m_courses_enrollments_course">fc6cb26a83d756108dfef7c6feaad397</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-27 22:25:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

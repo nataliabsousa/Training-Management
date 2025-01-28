@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1593178_traini_0.ValidateScheduleConflictAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ValidateScheduleConflictAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ValidateScheduleConflictAjax = Class.create();
+ValidateScheduleConflictAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    
+    checkConflict: function() {
+        var courseID = this.getParameter('sysparm_course_id');
+        var scheduleDate = this.getParameter('sysparm_schedule_date');
+
+        var scheduleGR = new GlideRecord('x_1593178_traini_0_schedules'); // Tabela de agendas
+        scheduleGR.addQuery('course', courseID);
+        scheduleGR.addQuery('date', scheduleDate);
+        scheduleGR.query();
+
+        if (scheduleGR.next()) {
+            return 'true'; // Conflito encontrado
+        }
+        return 'false'; // Sem conflito
+    }
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:40:02</sys_created_on>
+        <sys_id>08e3933283d712108dfef7c6feaad373</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ValidateScheduleConflictAjax</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_script_include_08e3933283d712108dfef7c6feaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:41:05</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>08e3933283d712108dfef7c6feaad373</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:40:01</sys_created_on>
+        <sys_id>97b5537283d712108dfef7c6feaad309</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:40:01</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_script_include_08e3933283d712108dfef7c6feaad373</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1593178_traini_0.ValidateScheduleConflictAjax&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ValidateScheduleConflictAjax&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ValidateScheduleConflictAjax = Class.create();
+ValidateScheduleConflictAjax.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    
+    checkConflict: function() {
+        var courseID = this.getParameter('sysparm_course_id');
+        var scheduleDate = this.getParameter('sysparm_schedule_date');
+
+        var scheduleGR = new GlideRecord('x_1593178_traini_0_schedules'); // Tabela de agendas
+        scheduleGR.addQuery('course', courseID);
+        scheduleGR.addQuery('date', scheduleDate);
+        scheduleGR.query();
+
+        if (scheduleGR.next()) {
+            return 'true'; // Conflito encontrado
+        }
+        return 'false'; // Sem conflito
+    }
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 18:40:02&lt;/sys_created_on&gt;&lt;sys_id&gt;08e3933283d712108dfef7c6feaad373&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;ValidateScheduleConflictAjax&lt;/sys_name&gt;&lt;sys_package display_value="Training Management " source="x_1593178_traini_0"&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Training Management "&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_08e3933283d712108dfef7c6feaad373&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 18:41:05&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;08e3933283d712108dfef7c6feaad373&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 18:40:01&lt;/sys_created_on&gt;&lt;sys_id&gt;97b5537283d712108dfef7c6feaad309&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 18:40:01&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1540611413</payload_hash>
+        <record_name>ValidateScheduleConflictAjax</record_name>
+        <reverted_from/>
+        <source>e2df86ae83d356108dfef7c6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:41:05</sys_created_on>
+        <sys_id>faf51bfe839712108dfef7c6feaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ae3794600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:41:05</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>72f51bfe039712104e9e46afd40e1570</update_guid>
+        <update_guid_history>72f51bfe039712104e9e46afd40e1570:1540611413,43c557b299d7121034ee0f7fe7722fe6:2015699158,e3b55b72f1d712101cc1640d230ec2e2:827275751</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:47:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>a7626d9db00549c6934556f89a945a24</sys_id>
+        <sys_metadata>08e3933283d712108dfef7c6feaad373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ValidateScheduleConflictAjax</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_script_include_08e3933283d712108dfef7c6feaad373</sys_update_name>
+        <sys_update_version display_value="sys_script_include_08e3933283d712108dfef7c6feaad373">faf51bfe839712108dfef7c6feaad370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:47:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

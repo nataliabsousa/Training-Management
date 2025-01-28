@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>course</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Schedule Conflict</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || g_form.getValue('course') == '' || g_form.getValue('date') == '') {
+        return;
+    }
+
+    var ga = new GlideAjax('ValidateScheduleConflictAjax');
+    ga.addParam('sysparm_name', 'checkConflict');
+    ga.addParam('sysparm_course_id', g_form.getValue('course'));
+    ga.addParam('sysparm_schedule_date', g_form.getValue('date'));
+
+    ga.getXMLAnswer(function(response) {
+        if (response === 'true') {
+            g_form.addErrorMessage('Error: There is already training for this course on this date!');
+            g_form.clearValue('date'); // Reseta a data inválida
+        }
+    });
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:43:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bb165fb283d712108dfef7c6feaad3b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Schedule Conflict</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_script_client_bb165fb283d712108dfef7c6feaad3b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:43:42</sys_updated_on>
+        <table>x_1593178_traini_0_schedules</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_script_client_bb165fb283d712108dfef7c6feaad3b0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;course&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Validate Schedule Conflict&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || g_form.getValue('course') == '' || g_form.getValue('date') == '') {
+        return;
+    }
+
+    var ga = new GlideAjax('ValidateScheduleConflictAjax');
+    ga.addParam('sysparm_name', 'checkConflict');
+    ga.addParam('sysparm_course_id', g_form.getValue('course'));
+    ga.addParam('sysparm_schedule_date', g_form.getValue('date'));
+
+    ga.getXMLAnswer(function(response) {
+        if (response === 'true') {
+            g_form.addErrorMessage('Error: There is already training for this course on this date!');
+            g_form.clearValue('date'); // Reseta a data inválida
+        }
+    });
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-28 18:43:42&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;bb165fb283d712108dfef7c6feaad3b0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Validate Schedule Conflict&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training Management " source="x_1593178_traini_0"&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Management "&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_bb165fb283d712108dfef7c6feaad3b0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-28 18:43:42&lt;/sys_updated_on&gt;&lt;table&gt;x_1593178_traini_0_schedules&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-232810065</payload_hash>
+        <record_name>Validate Schedule Conflict</record_name>
+        <reverted_from/>
+        <source>e2df86ae83d356108dfef7c6feaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:43:42</sys_created_on>
+        <sys_id>05969bb283d712108dfef7c6feaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194ae39f87c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:43:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>09969bb22bd712108e451099e920cef0</update_guid>
+        <update_guid_history>09969bb22bd712108e451099e920cef0:-232810065</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-28 18:47:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4df8cddabeb444589422cd076859f990</sys_id>
+        <sys_metadata>bb165fb283d712108dfef7c6feaad3b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Schedule Conflict</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="Schedules">0e441626831756108dfef7c6feaad330</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_script_client_bb165fb283d712108dfef7c6feaad3b0</sys_update_name>
+        <sys_update_version display_value="sys_script_client_bb165fb283d712108dfef7c6feaad3b0">05969bb283d712108dfef7c6feaad3f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-28 18:47:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

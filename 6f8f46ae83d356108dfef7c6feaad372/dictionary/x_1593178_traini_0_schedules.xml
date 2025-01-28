@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0e441626831756108dfef7c6feaad330" label="Schedules" max_length="40" name="x_1593178_traini_0_schedules" type="collection">
-        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" type="reference"/>
+        <element label="Total Quantity" max_length="255" name="total_quantity" type="integer"/>
+        <element display="true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Instructor" max_length="32" name="instructor" reference="sys_user" reference_qual="roles=x_1593178_traini_0.instructor^EQ" reference_qual_condition="roles=x_1593178_traini_0.instructor^EQ" type="reference"/>
         <element label="Course" max_length="32" name="course" reference="x_1593178_traini_0_courses" type="reference"/>
         <element label="Quantity Available" max_length="40" name="quantity_available" type="integer"/>
-        <element display="true" label="Date" max_length="255" name="date" type="glide_date_time"/>
         <index name="index">
             <element name="course"/>
         </index>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="cca75a2a831756108dfef7c6feaad37f" extends="task" label="Enrollments" max_length="40" name="x_1593178_traini_0_enrollments" type="collection">
         <element label="Schedule" max_length="32" name="schedule" reference="x_1593178_traini_0_schedules" type="reference"/>
+        <element label="Reproval Reason" max_length="1000" name="reproval_reason" type="string"/>
+        <element label="Course" max_length="32" name="course" reference="x_1593178_traini_0_courses" type="reference"/>
     </element>
 </database>
