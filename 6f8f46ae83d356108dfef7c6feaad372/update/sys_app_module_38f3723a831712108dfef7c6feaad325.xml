@@ -13,7 +13,7 @@
         <mobile_title>Courses</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1593178_traini_0_courses</name>
-        <order>310</order>
+        <order>110</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>38f3723a831712108dfef7c6feaad325</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
         <sys_update_name>sys_app_module_38f3723a831712108dfef7c6feaad325</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 16:12:24</sys_updated_on>
+        <sys_updated_on>2025-01-29 20:11:49</sys_updated_on>
         <timeline_page/>
         <title>New</title>
         <uncancelable>false</uncancelable>

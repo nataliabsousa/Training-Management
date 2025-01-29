@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">60863c13831b12108dfef7c6feaad355</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"https://marketplace.canva.com/EAFDO8vKjYE/1/0/800w/canva-linkedin-banner-geom%C3%A9trico-mesa-de-trabalho-IWUcqEmyM_s.jpg","sources":"[]","fit":"contain","position":"center center","alt":"","href":"","configAria":"{\"link\":{}}","id":"fit","value":"contain","propLabel":"Fit","noDebounce":true}</component_props>
+        <h>8</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 20:30:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b3987493831b12108dfef7c6feaad335</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>par_dashboard_widget_b3987493831b12108dfef7c6feaad335</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 20:33:19</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>par_dashboard_widget_b3987493831b12108dfef7c6feaad335</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">60863c13831b12108dfef7c6feaad355</canvas><component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component><component_props>{"src":"https://marketplace.canva.com/EAFDO8vKjYE/1/0/800w/canva-linkedin-banner-geom%C3%A9trico-mesa-de-trabalho-IWUcqEmyM_s.jpg","sources":"[]","fit":"contain","position":"center center","alt":"","href":"","configAria":"{\"link\":{}}","id":"fit","value":"contain","propLabel":"Fit","noDebounce":true}</component_props><h>8</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-29 20:30:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b3987493831b12108dfef7c6feaad335</sys_id><sys_mod_count>3</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package><sys_policy/><sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope><sys_update_name>par_dashboard_widget_b3987493831b12108dfef7c6feaad335</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-29 20:33:19</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>1413253908</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>18d258db831712108dfef7c6feaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 20:33:19</sys_created_on>
+        <sys_id>f8497417831b12108dfef7c6feaad371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b3c4b1140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 20:33:19</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>70497417ff1b1210dd5ff8a5d352dc71</update_guid>
+        <update_guid_history>70497417ff1b1210dd5ff8a5d352dc71:1413253908,50393417b61b1210a462685c8b80cd52:-1310991671,9309b8d3d71b1210e09679f56891e11d:-1412069140,77987493801b1210a8cc560e69c52d36:1487149591</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">685bfc97831b12108dfef7c6feaad3c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 20:42:19</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>c811bcafdaf54d16af8812dad4a7a5c1</sys_id>
+        <sys_metadata>b3987493831b12108dfef7c6feaad335</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_b3987493831b12108dfef7c6feaad335</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_b3987493831b12108dfef7c6feaad335">f8497417831b12108dfef7c6feaad371</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-29 20:42:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
