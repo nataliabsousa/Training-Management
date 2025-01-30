@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>schedule.course.description</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 18:53:50</sys_created_on>
+        <sys_id>891cadef839b12108dfef7c6feaad325</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>schedule.course.description</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_ui_policy_action_891cadef839b12108dfef7c6feaad325</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 19:02:26</sys_updated_on>
+        <table>x_1593178_traini_0_enrollments</table>
+        <ui_policy display_value="Read only enrollments fields">00abe5ef839b12108dfef7c6feaad39f</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=891cadef839b12108dfef7c6feaad325"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_ui_policy_action_891cadef839b12108dfef7c6feaad325</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>schedule.course.description</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 18:53:50</sys_created_on><sys_id>891cadef839b12108dfef7c6feaad325</sys_id><sys_mod_count>3</sys_mod_count><sys_name>schedule.course.description</sys_name><sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package><sys_policy/><sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope><sys_update_name>sys_ui_policy_action_891cadef839b12108dfef7c6feaad325</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 19:02:26</sys_updated_on><table>x_1593178_traini_0_enrollments</table><ui_policy display_value="Read only enrollments fields">00abe5ef839b12108dfef7c6feaad39f</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=891cadef839b12108dfef7c6feaad325"/></record_update>]]></payload>
+        <payload_hash>-996132812</payload_hash>
+        <record_name>schedule.course.description</record_name>
+        <reverted_from/>
+        <source>18d258db831712108dfef7c6feaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 19:02:26</sys_created_on>
+        <sys_id>030e6da383db12108dfef7c6feaad36b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b897d8450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 19:02:26</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>870e6da30edb12106a3eabb213d7776a</update_guid>
+        <update_guid_history>870e6da30edb12106a3eabb213d7776a:-996132812,469c2123a8db121061d5311f80c36d00:1742083664,9f5c61235adb12102e4d761cfe8e4b53:-948263632,091cadef309b121057b452ecbcbcf627:-1417536660</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 20:59:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>124d1e4ce71545288558df33824b2840</sys_id>
+        <sys_metadata>891cadef839b12108dfef7c6feaad325</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>schedule.course.description</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="Read only enrollments fields">00abe5ef839b12108dfef7c6feaad39f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_891cadef839b12108dfef7c6feaad325</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_891cadef839b12108dfef7c6feaad325">030e6da383db12108dfef7c6feaad36b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 20:59:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Habilitar opções por curso</description>
+        <field>course</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Enable options by course</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	var ga = new GlideAjax('GetAvailableSchedules');
+	ga.addParam('sys_id_curso', newValue);
+
+	ga.getXMLAnswer(function (response) {
+		var schedulesData = JSON.parse(response);  // Converte a resposta para um array
+
+		// Limpa o campo de schedules antes de adicionar novos valores
+		g_form.clearOptions('schedule');  // Supondo que o campo de schedule seja chamado "schedule"
+
+		if (schedulesData.length > 0) {
+			schedulesData.forEach(function (item) {
+				var parts = item.split(',');
+				var sysId = parts[0];
+				var scheduleDate = parts[1];
+
+				// Adiciona as opções ao campo de schedule
+				g_form.addOption('schedule', sysId, scheduleDate);
+			});
+		} else {
+			// Caso não haja agendamentos disponíveis, adiciona uma opção indicando isso
+			g_form.addOption('schedule', '', 'Nenhum horário disponível');
+		}
+	});
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 19:20:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ecee9e383db12108dfef7c6feaad3dc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Enable options by course</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_script_client_0ecee9e383db12108dfef7c6feaad3dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 19:36:17</sys_updated_on>
+        <table>x_1593178_traini_0_enrollments</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_script_client_0ecee9e383db12108dfef7c6feaad3dc</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Habilitar opções por curso&lt;/description&gt;&lt;field&gt;course&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Enable options by course&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	var ga = new GlideAjax('GetAvailableSchedules');
+	ga.addParam('sys_id_curso', newValue);
+
+	ga.getXMLAnswer(function (response) {
+		var schedulesData = JSON.parse(response);  // Converte a resposta para um array
+
+		// Limpa o campo de schedules antes de adicionar novos valores
+		g_form.clearOptions('schedule');  // Supondo que o campo de schedule seja chamado "schedule"
+
+		if (schedulesData.length &gt; 0) {
+			schedulesData.forEach(function (item) {
+				var parts = item.split(',');
+				var sysId = parts[0];
+				var scheduleDate = parts[1];
+
+				// Adiciona as opções ao campo de schedule
+				g_form.addOption('schedule', sysId, scheduleDate);
+			});
+		} else {
+			// Caso não haja agendamentos disponíveis, adiciona uma opção indicando isso
+			g_form.addOption('schedule', '', 'Nenhum horário disponível');
+		}
+	});
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-30 19:20:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0ecee9e383db12108dfef7c6feaad3dc&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Enable options by course&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training Management " source="x_1593178_traini_0"&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Management "&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0ecee9e383db12108dfef7c6feaad3dc&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 19:36:17&lt;/sys_updated_on&gt;&lt;table&gt;x_1593178_traini_0_enrollments&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1823391083</payload_hash>
+        <record_name>Enable options by course</record_name>
+        <reverted_from/>
+        <source>18d258db831712108dfef7c6feaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 19:36:17</sys_created_on>
+        <sys_id>fec571eb83db12108dfef7c6feaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b8b6d45c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 19:36:17</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>76c571ebe3db12109e1c963dd8d0ead5</update_guid>
+        <update_guid_history>76c571ebe3db12109e1c963dd8d0ead5:-1823391083,bb323d2711db12100f0bceb98ee2f024:-1095914312</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 20:37:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>396f95d2b881433095f2f299d2a05219</sys_id>
+        <sys_metadata>0ecee9e383db12108dfef7c6feaad3dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Enable options by course</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="Enrollments">cca75a2a831756108dfef7c6feaad37f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_script_client_0ecee9e383db12108dfef7c6feaad3dc</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0ecee9e383db12108dfef7c6feaad3dc">fec571eb83db12108dfef7c6feaad3d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 20:37:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

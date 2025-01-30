@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="DELETE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles>x_1593178_traini_0.admin</edit_roles>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label/>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_1593178_traini_0_courses</name>
+        <new_condition/>
+        <new_roles>x_1593178_traini_0.admin</new_roles>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>false</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>false</omit_new_button>
+        <related_list>x_1593178_traini_0_enrollments.course</related_list>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 16:22:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ed80de3831b12108dfef7c6feaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593178_traini_0_courses</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_ui_list_control_1ed80de3831b12108dfef7c6feaad3fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 16:22:10</sys_updated_on>
+    </sys_ui_list_control>
+    <sys_es_latest_script action="DELETE">
+        <id>1ed80de3831b12108dfef7c6feaad3fe</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 16:22:09</sys_created_on>
+        <sys_id>1b59c5e3831b12108dfef7c6feaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 16:22:09</sys_updated_on>
+        <table>sys_ui_list_control</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_ui_list_control_1ed80de3831b12108dfef7c6feaad3fe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control"><sys_ui_list_control action="INSERT_OR_UPDATE"><columns_condition/><disable_nlq>false</disable_nlq><edit_condition/><edit_default_filter/><edit_roles>x_1593178_traini_0.admin</edit_roles><empty_condition/><filter_condition/><filter_roles/><hierarchical_lists>false</hierarchical_lists><label/><link_condition/><link_roles/><list_edit_insert_row>false</list_edit_insert_row><list_edit_ref_qual_tag/><list_edit_type/><name>x_1593178_traini_0_courses</name><new_condition/><new_roles>x_1593178_traini_0.admin</new_roles><omit_columns_if_empty>false</omit_columns_if_empty><omit_count>false</omit_count><omit_count_views>false</omit_count_views><omit_count_views_list/><omit_drilldown_link>false</omit_drilldown_link><omit_edit_button>false</omit_edit_button><omit_filters>false</omit_filters><omit_if_empty>false</omit_if_empty><omit_links>false</omit_links><omit_new_button>false</omit_new_button><related_list>x_1593178_traini_0_enrollments.course</related_list><sys_class_name>sys_ui_list_control</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 16:22:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ed80de3831b12108dfef7c6feaad3fe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1593178_traini_0_courses</sys_name><sys_overrides display_value="">global</sys_overrides><sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package><sys_policy/><sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope><sys_update_name>sys_ui_list_control_1ed80de3831b12108dfef7c6feaad3fe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 16:22:10</sys_updated_on></sys_ui_list_control><sys_es_latest_script action="INSERT_OR_UPDATE"><id>1ed80de3831b12108dfef7c6feaad3fe</id><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-30 16:22:09</sys_created_on><sys_id>1b59c5e3831b12108dfef7c6feaad3e8</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-30 16:22:09</sys_updated_on><table>sys_ui_list_control</table><use_es_latest>true</use_es_latest></sys_es_latest_script></record_update>]]></payload>
+        <payload_hash>-656551124</payload_hash>
+        <record_name>x_1593178_traini_0_courses</record_name>
+        <reverted_from/>
+        <source>18d258db831712108dfef7c6feaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 16:22:10</sys_created_on>
+        <sys_id>675909e3831b12108dfef7c6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b8051d2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 16:22:10</sys_updated_on>
+        <type>List Control</type>
+        <update_guid>6b5909e3211b121045a79d42ded7f51e</update_guid>
+        <update_guid_history>6b5909e3211b121045a79d42ded7f51e:-656551124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 16:37:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list_control">sys_ui_list_control</sys_db_object>
+        <sys_id>30d96cc20aaf4f728bf7fa6a92c454c4</sys_id>
+        <sys_metadata>1ed80de3831b12108dfef7c6feaad3fe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1593178_traini_0_courses</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="Courses">2e7352e2831756108dfef7c6feaad34e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_ui_list_control_1ed80de3831b12108dfef7c6feaad3fe</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_control_1ed80de3831b12108dfef7c6feaad3fe">675909e3831b12108dfef7c6feaad31f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 16:37:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

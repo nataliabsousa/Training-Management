@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -27,7 +27,7 @@
         <chart_title_x_position>0</chart_title_x_position>
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
-        <color/>
+        <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
         <column/>
@@ -48,9 +48,9 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,opened_by,schedule,schedule.course,schedule.instructor,state,schedule.sys_updated_on,schedule.sys_updated_by</field_list>
-        <filter table="x_1593178_traini_0_enrollments">schedule.dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^state=3^schedule.instructorDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="schedule.date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        <filter table="x_1593178_traini_0_enrollments">schedule.dateONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^schedule.instructor.roles=x_1593178_traini_0.instructor^state=3<item endquery="false" field="schedule.date" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+            <item endquery="false" field="schedule.instructor.roles" goto="false" newquery="false" operator="=" or="false" value="x_1593178_traini_0.instructor"/>
             <item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
-            <item endquery="false" field="schedule.instructor" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
         </filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -75,7 +75,7 @@
         <lower_limit/>
         <map display_value="World">93b8a3a2d7101200bd4a4ebfae61033a</map>
         <map_source/>
-        <no_bulk_migration>false</no_bulk_migration>
+        <no_bulk_migration>true</no_bulk_migration>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>
@@ -111,14 +111,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-28 20:45:01</sys_created_on>
         <sys_id>ca523736835b12108dfef7c6feaad3a1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>List of Enrolled Students</sys_name>
         <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
         <sys_policy/>
         <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
         <sys_update_name>sys_report_ca523736835b12108dfef7c6feaad3a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-28 20:50:36</sys_updated_on>
+        <sys_updated_on>2025-01-30 12:42:42</sys_updated_on>
         <table>x_1593178_traini_0_enrollments</table>
         <title>List of Enrolled Students</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>

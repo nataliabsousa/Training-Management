@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="schedule" label="Date" language="en" table="x_1593178_traini_0_enrollments">
+    <sys_documentation element="integration_error_message" label="Integration Error Message" language="en" table="x_1593178_traini_0_courses">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>schedule</element>
+            <element>integration_error_message</element>
             <help/>
             <hint/>
-            <label>Date</label>
+            <label>Integration Error Message</label>
             <language>en</language>
-            <name>x_1593178_traini_0_enrollments</name>
-            <plural/>
+            <name>x_1593178_traini_0_courses</name>
+            <plural>Integration Error Messages</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-27 19:32:54</sys_created_on>
-            <sys_mod_count>7</sys_mod_count>
-            <sys_name>Date</sys_name>
+            <sys_created_on>2025-01-30 14:21:17</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Integration Error Message</sys_name>
             <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
             <sys_policy/>
             <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
-            <sys_update_name>sys_documentation_x_1593178_traini_0_enrollments_schedule_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1593178_traini_0_courses_integration_error_message_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-30 18:37:34</sys_updated_on>
+            <sys_updated_on>2025-01-30 14:21:17</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

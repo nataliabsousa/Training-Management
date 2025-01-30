@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="119ea8a3839712108dfef7c6feaad334" sys_domain="global" table="x_1593178_traini_0_courses" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 14:25:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd9ea8a3839712108dfef7c6feaad337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593178_traini_0_courses" name="x_1593178_traini_0_courses" sys_domain="global" view="Default view">119ea8a3839712108dfef7c6feaad334</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1593178_traini_0_courses" sys_domain="global" view="Default view">0373dee6835356108dfef7c6feaad314</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 14:25:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 14:25:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d99ea8a3839712108dfef7c6feaad338</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593178_traini_0_courses" name="x_1593178_traini_0_courses" sys_domain="global" view="Default view">119ea8a3839712108dfef7c6feaad334</sys_ui_form>
+            <sys_ui_section caption="Translation Integration" display_value="Translation Integration" name="x_1593178_traini_0_courses" sys_domain="global" view="Default view">5d9e68a3839712108dfef7c6feaad3a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 14:25:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 14:25:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d19ea8a3839712108dfef7c6feaad33c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1593178_traini_0_courses" name="x_1593178_traini_0_courses" sys_domain="global" view="Default view">119ea8a3839712108dfef7c6feaad334</sys_ui_form>
+            <sys_ui_section caption="Updates" display_value="Updates" name="x_1593178_traini_0_courses" sys_domain="global" view="Default view">199e68a3839712108dfef7c6feaad3aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 14:25:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1593178_traini_0_courses</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-30 14:25:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>119ea8a3839712108dfef7c6feaad334</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1593178_traini_0_courses</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+            <sys_update_name>sys_ui_form_sections_119ea8a3839712108dfef7c6feaad334</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-30 14:25:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Verify Schedules</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	if (g_scratchpad._ajaxChecked) {
+		g_scratchpad._ajaxChecked = null;
+		return true;
+	}
+	g_scratchpad._action = g_form.getActionName();
+	g_scratchpad._ajaxChecked = false;
+
+	var ga = new GlideAjax('verifyTrainings');
+	ga.addParam('sysparm_date', g_form.getValue("date"));
+	ga.addParam('sysparm_course', g_form.getValue("course"));
+	ga.getXMLAnswer(function (answer) {
+		if (answer == "true") {
+			alert("didn't work");
+			return;
+		}
+		g_scratchpad._ajaxChecked = true;
+		if (typeof g_form.orderNow != 'undefined') {
+			// this is a catalog item
+			g_form.orderNow();
+		} else {
+			g_form.submit(g_scratchpad._action);
+		}
+	});
+	// always return false if we get to this point
+	return false;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-29 01:45:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04f6f487839f12108dfef7c6feaad373</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Verify Schedules</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_update_name>sys_script_client_04f6f487839f12108dfef7c6feaad373</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 20:53:20</sys_updated_on>
+        <table>x_1593178_traini_0_schedules</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</application>
+        <file_path/>
+        <instance_id>daf0afdcdbda395892f5684e1396195c</instance_id>
+        <instance_name>dev199370</instance_name>
+        <name>sys_script_client_04f6f487839f12108dfef7c6feaad373</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Verify Schedules&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+	if (g_scratchpad._ajaxChecked) {
+		g_scratchpad._ajaxChecked = null;
+		return true;
+	}
+	g_scratchpad._action = g_form.getActionName();
+	g_scratchpad._ajaxChecked = false;
+
+	var ga = new GlideAjax('verifyTrainings');
+	ga.addParam('sysparm_date', g_form.getValue("date"));
+	ga.addParam('sysparm_course', g_form.getValue("course"));
+	ga.getXMLAnswer(function (answer) {
+		if (answer == "true") {
+			alert("didn't work");
+			return;
+		}
+		g_scratchpad._ajaxChecked = true;
+		if (typeof g_form.orderNow != 'undefined') {
+			// this is a catalog item
+			g_form.orderNow();
+		} else {
+			g_form.submit(g_scratchpad._action);
+		}
+	});
+	// always return false if we get to this point
+	return false;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-01-29 01:45:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;04f6f487839f12108dfef7c6feaad373&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Verify Schedules&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Training Management " source="x_1593178_traini_0"&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Training Management "&gt;6f8f46ae83d356108dfef7c6feaad372&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_04f6f487839f12108dfef7c6feaad373&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-01-30 20:53:20&lt;/sys_updated_on&gt;&lt;table&gt;x_1593178_traini_0_schedules&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-292522174</payload_hash>
+        <record_name>Verify Schedules</record_name>
+        <reverted_from/>
+        <source>18d258db831712108dfef7c6feaad334</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 20:53:20</sys_created_on>
+        <sys_id>eb6786a3835f12108dfef7c6feaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194b8fd5f550000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 20:53:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>636786a3c45f1210dbec64f00bd47dae</update_guid>
+        <update_guid_history>636786a3c45f1210dbec64f00bd47dae:-292522174,56c8a7437293121063e927ec84201ba3:-1703277440,bc8827cfd95312105aae82d3f57b9c9f:-292522174,f9a6e74f865312101fc3c1853949eca4:-422767720,bd858d8759df12100f815df055a0a927:-2051960443,b304c9c74edf12100bbe0c474829c158:1765555254,a3c345c70adf1210c9edc921cb92a4a8:1435594582,f863898715df1210e0bdd8bd5c31f268:-129351600,16534507dcdf12103b3f92553c68c231:-27782951,6233c1478fdf121063ef762af5e161b8:-941037562,2ff28507ffdf1210996714bcd5a3b5b2:1387483124,28adbc8fbb9f1210551aea41dc8d7e29:-2017689981,e37dbc4f679f12107dc34b963b0339d6:525161737,7b6df0cb4c9f12107f5d81b808cd78a4:-609531712,2b177ccb0c1f1210a113266c530707ec:-1042502191</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 21:10:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>06d5f8ce32d447ad9e83de0787a61ef9</sys_id>
+        <sys_metadata>04f6f487839f12108dfef7c6feaad373</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Verify Schedules</sys_name>
+        <sys_package display_value="Training Management " source="x_1593178_traini_0">6f8f46ae83d356108dfef7c6feaad372</sys_package>
+        <sys_parent display_value="Schedules">0e441626831756108dfef7c6feaad330</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Training Management ">6f8f46ae83d356108dfef7c6feaad372</sys_scope>
+        <sys_scope_delete display_value="">5173a67ff04549d2a1a7a3063adede44</sys_scope_delete>
+        <sys_update_name>sys_script_client_04f6f487839f12108dfef7c6feaad373</sys_update_name>
+        <sys_update_version display_value="sys_script_client_04f6f487839f12108dfef7c6feaad373">eb6786a3835f12108dfef7c6feaad3ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 21:10:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
